@@ -50,15 +50,4 @@ exports.processQueueEvent = functions
                                       }).catch(error => {
                                         return Promise.resolve(-1)
                                       })
-
-                              //  return axios({
-                              //           method: 'get',
-                              //           url: 'https://380d5b104e68b4171f84b6226b1c9704:77e36d0f1e1c3f04ac10ca4b95e93026@havelithreads.myshopify.com/admin/orders.json',
-                              //         }).then(response => {
-                              //           console.log('response', response)
-                              //           return Promise.resolve(1)
-                              //         }).catch(error => {
-                              //           console.log('error processing', error)
-                              //           return Promise.resolve(-1)
-                              //         })
                              })
